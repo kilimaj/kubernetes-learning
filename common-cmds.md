@@ -1,19 +1,20 @@
 # For kubernetes basics
 
-'''kubernetes
+```kubernetes
 kubectl run redis --image=redis1234 --dry-run=client -o yaml > redis.yaml
-'''
+```
 
 - to edit use:
 
-'''kuberenetes
+```kubernetes
 kubectl edit pod redis
-'''
+```
 
 - if edited using vi:
-'''kuberenetes
+
+```kubernetes
 kubectl apply -f redis-definition.yaml
-'''
+```
 
 ## For Replica sets
 

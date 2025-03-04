@@ -20,5 +20,3 @@ spec:
         - name: nginx
           image: nginx
 
-# also just run cmd:
-# kubectl create deployment  myapp-deployment --image=nginx --replicas=2
